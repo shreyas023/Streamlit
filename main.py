@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from model import DataPreprocessor, TimeSeriesDataset, BiRNNImputer, train_model, impute_data
 
 def main():
-    st.title("Time Series Imputation with BiRNN")
+    st.title("DataSynth: Time Series Imputation")
     st.sidebar.header("Configuration Panel")
 
     # File upload
